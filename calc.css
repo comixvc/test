@@ -1,0 +1,71 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    max-width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+#display{
+    height: 50px;
+    width: 375px;
+    text-align: right;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    max-width: 375px;
+    max-height: 450px;
+    /* background-color: lightgray; */
+    /* border: 1px solid #000000; */
+
+}
+#buttons > * {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* border: 1px solid #000000; */
+}
+#numbers{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid #ff0000; */
+}
+#numbers > * {
+    width: 65px;
+    margin: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+#operators{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid #000000; */
+    justify-content: space-around;
+}
+#operators > * {
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+
+    border-radius: 5px;
+}

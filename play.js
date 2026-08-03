@@ -51,6 +51,8 @@ if (addItemButton) {
                     itemList.removeChild(newItem);
                 });
             }
+            itemInput.value = "";
+            itemInput.focus();
         }
     });
 }   
